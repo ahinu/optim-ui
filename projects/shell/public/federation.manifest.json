@@ -1,0 +1,4 @@
+{
+  "mfeLogin": "http://localhost:4200/remoteEntry.json",
+  "mfeHome": "http://localhost:4200/remoteEntry.json"
+}

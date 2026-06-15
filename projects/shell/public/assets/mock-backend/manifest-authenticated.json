@@ -1,0 +1,27 @@
+{
+  "user": {
+    "id": "u-1",
+    "username": "sborde",
+    "displayName": "Sébastien Borde",
+    "roles": ["PORTAL_USER"],
+    "permissions": ["PORTAL_ACCESS"]
+  },
+  "layout": {
+    "appName": "Portal",
+    "theme": "system",
+    "homeRoute": "/home"
+  },
+  "modules": [
+    {
+      "key": "home",
+      "remoteName": "mfeHome",
+      "remoteEntry": "http://localhost:4202/remoteEntry.json",
+      "exposedModule": "./routes",
+      "routePath": "home",
+      "displayName": "Accueil",
+      "public": false,
+      "permissions": ["PORTAL_ACCESS"],
+      "navOrder": 10
+    }
+  ]
+}

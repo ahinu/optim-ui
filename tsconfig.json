@@ -6,6 +6,13 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
+    "paths": {
+      "@optim-ui/lib-auth": ["./projects/lib-auth/src/public-api.ts"],
+      "@optim-ui/lib-contracts": ["./projects/lib-contracts/src/public-api.ts"],
+      "@optim-ui/lib-federation": ["./projects/lib-federation/src/public-api.ts"],
+      "@optim-ui/lib-permissions": ["./projects/lib-permissions/src/public-api.ts"],
+      "@optim-ui/lib-shell-ui": ["./projects/lib-shell-ui/src/public-api.ts"]
+    },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
@@ -19,5 +26,55 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/shell/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/shell/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mfe-login/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/mfe-login/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mfe-home/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/mfe-home/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib-contracts/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib-contracts/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib-auth/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib-auth/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib-federation/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib-federation/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib-shell-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib-shell-ui/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lib-permissions/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/lib-permissions/tsconfig.spec.json"
+    }
+  ]
 }

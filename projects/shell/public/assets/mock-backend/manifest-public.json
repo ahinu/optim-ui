@@ -1,0 +1,20 @@
+{
+  "user": null,
+  "layout": {
+    "appName": "Portal",
+    "theme": "system",
+    "homeRoute": "/login"
+  },
+  "modules": [
+    {
+      "key": "login",
+      "remoteName": "mfeLogin",
+      "remoteEntry": "http://localhost:4201/remoteEntry.json",
+      "exposedModule": "./routes",
+      "routePath": "login",
+      "displayName": "Connexion",
+      "public": true,
+      "navOrder": 1
+    }
+  ]
+}
